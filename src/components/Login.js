@@ -75,6 +75,7 @@ const Login = () => {
       }, err => {
         setIsLoading(false)
         console.log('Error logging in: ', err);
+        setIsWrongLogin(true)
       })
 
       .catch(() => {

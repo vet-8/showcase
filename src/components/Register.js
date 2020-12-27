@@ -112,6 +112,7 @@ const Register = () => {
                             });
                     }, authErr => {
                         console.log('Failed to create user: ', authErr);
+                        setIsWrongRegister(true)
                     });
             })
             .catch(
