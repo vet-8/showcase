@@ -1,0 +1,35 @@
+.gender-user {
+    margin-right: 100px;
+    margin-top: 3px;
+}
+
+.gender-user input {
+    width: 23.8px;
+    height: 24px;
+    position: relative;
+    top: 5px;
+    left: 1px;
+    margin-right: 10px;
+}
+
+.gender-user label {
+    position: relative;
+    top: -20px;
+    left: 100px;
+    margin-right: 100px !important;
+    margin-top: 7px;
+}
+
+.profil.info-hewan {
+    margin-left: 40px;
+    margin-top: -30px !important;
+}
+
+.profil.info-hewan h3 {
+    font-size: 28px !important;
+}
+
+.profil.info-hewan .pet-add {
+    position: relative;
+    left: -10px;
+}

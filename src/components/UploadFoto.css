@@ -1,0 +1,29 @@
+.image-button>input {
+    display: none;
+}
+
+
+/* .image-button img {
+    position: relative;
+    z-index: 2;
+} */
+
+.image-button img:hover {
+    cursor: pointer;
+}
+
+.image-button button {
+    display: none;
+}
+
+.preview img {
+    height: 220px;
+    width: 220px;
+    object-fit: cover;
+    position: relative;
+    bottom: 50px;
+    right: 80px;
+    border-radius: 20px;
+    margin-bottom: -200px;
+    z-index: 1;
+}

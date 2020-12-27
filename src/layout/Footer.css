@@ -1,0 +1,22 @@
+.footer {
+  height: 309px;
+  background-color: #1a3150;
+  color: #ffffff !important;
+}
+
+.logo1 {
+  padding-left: 88px;
+  padding-top: 64px;
+}
+
+.text-footer{
+  font-weight: bold;
+  size: 24px;
+  line-height: 150%;
+  color:#ffffff !important;
+  padding-top: 50px;
+}
+
+.list-group-item {
+  padding-bottom: -50px;
+}

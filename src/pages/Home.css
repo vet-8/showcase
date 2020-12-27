@@ -1,0 +1,130 @@
+.home-top {
+  position: relative;
+  height: 70vh;
+}
+
+.home-rectangle {
+  height: 17vh;
+  width: 100vw;
+  left: 0px;
+  top: 64px;
+
+  /* Primary Color Vet -2 */
+  background: #1a3150;
+}
+
+.home-dog {
+  position: relative;
+  top: 22vh;
+  left: 70vw;
+  z-index: 0;
+}
+
+.home-elipse {
+  width: 100vw;
+  height: 25em;
+  background: url("./image/home-elipse.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.home-jumbotron {
+  width: 50vw;
+  height: 20vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-jumbotron h1 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 2.5em;
+}
+
+.home-jumbotron p {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+.booknow-text {
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  color: black;
+}
+
+.services {
+  margin-top: 10vh;
+  /* height: 70vh; */
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 3em;
+  color: black;
+}
+
+h4 {
+  font-weight: bold !important;
+}
+
+h2 {
+  font-weight: bold !important;
+  color: #1a3150;
+}
+
+.active {
+  background: none !important;
+  color: black !important;
+}
+
+.cat-bg-img {
+  background: url("./image/home-bg-cat.svg");
+  /* background-position: center; */
+  height: 25em;
+  width: 27em;
+  max-width: 100%;
+  max-height: 10%;
+}
+
+.text-middle {
+  margin-top: 8em;
+}
+
+.btn-loc {
+  background-color: #e0e9f5;
+  height: 22px;
+  width: 79px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: "Roboto";
+  border: 0px;
+  margin-bottom: 14px;
+}
+
+.btn-block {
+  background-color: #fdcb5a !important;
+  font-family: "Roboto";
+  border-radius: 4px;
+  margin-top: 0px;
+}
+
+.bTybGL:hover:enabled,
+.bTybGL:focus:enabled {
+  background-color: #1a3150 !important;
+}
+
+.DIuaA {
+  background-color: rgba(26, 49, 80, 0.5) !important;
+  box-shadow: 0 0 1px 3px #1a3150 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .home-dog {
+    display: none;
+  }
+}

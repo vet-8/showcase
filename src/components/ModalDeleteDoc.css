@@ -1,0 +1,26 @@
+.doctor-modal-delete {
+    margin-top: 250px !important;
+}
+
+.btn-delete-doc {
+    color: black !important;
+    background-color: white !important;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+
+.btn-delete-doc:hover {
+    color: white !important;
+    background-color: rgb(224, 38, 5) !important;
+}
+
+.btn-cancel-delete-doc {
+    background-color: white !important;
+    color: black !important;
+}
+
+.btn-cancel-delete-doc:hover {
+    background-color: grey !important;
+    color: white !important;
+}

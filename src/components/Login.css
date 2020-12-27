@@ -1,0 +1,151 @@
+.box-login .mb-4 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1A3150!important;
+    margin-bottom: 4px;
+}
+
+.box-login {
+    padding-right: 200px;
+}
+
+.text-login2 {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.pt-0 .btn-warning {
+    color: #1A3150 !important;
+    font-weight: bold !important;
+}
+
+.pt-0 {
+    position: relative;
+    bottom: -40px;
+    padding-right: 100px !important;
+}
+
+.kolom-username {
+    position: relative;
+    width: 520px !important;
+    height: 60px !important;
+    margin-top: -30px;
+}
+
+.text-login {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    padding-top: -50px;
+    margin-bottom: 26px;
+    margin-top: 4px;
+    position: relative;
+    bottom: 20px;
+}
+
+.signup {
+    color: #FDCB5A !important;
+}
+
+.box-login .btn-block {
+    background-color: #FDCB5A !important;
+    color: #1A3150 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    line-height: 150%;
+    width: 520px !important;
+    height: 60px !important;
+    left: -50px !important;
+    position: relative;
+}
+
+.form.form-register {
+    position: relative;
+    left: -100px;
+}
+
+.input-group-addon {
+    margin-left: 30px;
+}
+
+.dog {
+    margin-right: 150px;
+    /* margin-top: 110px; */
+    margin-bottom: 0px;
+}
+
+.vet {
+    position: relative;
+    bottom: 650px;
+    left: 150px;
+}
+
+.username {
+    position: relative;
+    bottom: 45px;
+    padding-left: 10px;
+}
+
+.box-login input {
+    padding-left: 40px;
+}
+
+.pw-icon-login {
+    position: relative;
+    left: 455px;
+    bottom: 45px !important;
+}
+
+.error-text {
+    font-size: 15px;
+    color: red;
+    position: relative;
+    bottom: 25px;
+}
+
+.pw-icon:hover {
+    cursor: pointer;
+}
+
+.text-regist-login {
+    text-align: center !important;
+    font-size: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    position: relative;
+    bottom: 90px;
+    left: -310px;
+    top: 0px;
+}
+
+.login-title {
+    position: relative;
+    top: -100px;
+    left: -30px !important;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .text-regist-login {
+        text-align: center !important;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 150%;
+        position: relative;
+        bottom: 90px;
+        left: -295px;
+        top: -100px;
+    }
+    .login-title {
+        position: relative;
+        top: -10px;
+        left: 100px !important;
+        margin-bottom: 20px;
+    }
+}

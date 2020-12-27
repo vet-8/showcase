@@ -1,0 +1,20 @@
+.submenu-user {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1a3150;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none !important;
+    background-color: white;
+    border: 0px;
+    margin-bottom: -15px;
+    border-bottom: 10px solid white;
+}
+
+.submenu-user:focus {
+    outline: none;
+}
+
+.submenu-user.submenu-active {
+    color: #FDCB5A, 100% !important;
+}

@@ -1,0 +1,65 @@
+.dokter-background {
+    background-color: #e5e5e5;
+    min-height: 100vh;
+}
+
+.dokter-right-box {
+    width: 96%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logout-profile:hover {
+    cursor: pointer;
+}
+
+.logout-profile {
+    margin-left: 33px !important;
+}
+
+.inactive-submenu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1a3150;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none !important;
+    background-color: white;
+    border: 0px;
+    margin-bottom: -15px;
+    border-bottom: 10px solid white;
+}
+
+.inactive-submenu:hover {
+    color: #FACB5A !important;
+    background-color: none;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 10px solid #FACB5A;
+}
+
+.submenu-active {
+    color: #FACB5A !important;
+    background-color: none;
+    text-decoration: none;
+    outline: none;
+    padding-bottom: -10px;
+    border-bottom: 10px solid #FACB5A;
+}
+
+.inactive-nav-edit-profile:hover {
+    color: #1a3150;
+    background-color: #ffc107;
+    cursor: pointer;
+}
+
+.active-nav-edit-profile {
+    background-color: #ffc107;
+}
+
+.foto-profil-user-edit {
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+}

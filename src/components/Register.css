@@ -1,0 +1,173 @@
+.text-regist {
+    text-align: center !important;
+    font-size: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    position: relative;
+    bottom: 40px;
+}
+
+.text-regist-bawah {
+    text-align: center !important;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    position: relative;
+    left: -400px;
+    top: 18px;
+}
+
+.pt-0 {
+    position: relative;
+    bottom: -40px;
+}
+
+.box-regist .mb-4 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration-color: #1A3150;
+    position: relative;
+    bottom: 30px;
+}
+
+.box-regist {
+    padding-right: 175px;
+    position: relative;
+    top: 35px;
+}
+
+.btn-block-register {
+    background-color: #FDCB5A !important;
+    color: #1A3150 !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    line-height: 150%;
+    width: 80vw !important;
+    height: 60px !important;
+    right: 55px;
+    position: relative;
+    margin-top: -20px;
+    border: 0px solid !important;
+}
+
+.regist-text {
+    color: #1A3150;
+}
+
+.signin {
+    color: #FDCB5A !important;
+}
+
+.vet {
+    position: relative;
+    bottom: 700px;
+    left: 220px;
+    size: 75px;
+}
+
+.reg-icon {
+    position: relative;
+    bottom: 45px;
+    left: -45px;
+}
+
+.box-regist input {
+    padding-left: 40px;
+}
+
+.error-regist {
+    color: red;
+    position: relative;
+    font-size: 15px;
+    bottom: 20px;
+}
+
+.pw-icon {
+    position: relative;
+    left: 410px !important;
+    bottom: 50px !important;
+}
+
+.kolom-regist {
+    position: relative;
+    width: 80vw !important;
+    height: 60px !important;
+    margin-top: -30px;
+    right: 55px;
+}
+
+.dog-login {
+    height: 0px;
+}
+
+.register-formulir {
+    width: 1000px;
+    position: relative;
+    left: -140px;
+    top: -150px;
+}
+
+.register-formulir h2 {
+    position: relative;
+    left: -40px;
+    top: -10px;
+}
+
+@media screen and (min-width: 992px) {
+    .dog-login {
+        height: 100vh;
+    }
+    .text-regist {
+        text-align: center !important;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 150%;
+        position: relative;
+        bottom: 90px;
+        left: -310px;
+    }
+    .register-formulir h2 {
+        position: relative;
+        left: 40px;
+        top: -10px;
+    }
+    .register-formulir {
+        width: 1000px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .kolom-regist {
+        position: relative;
+        width: 520px !important;
+        height: 60px !important;
+        margin-top: -30px;
+        right: 55px;
+    }
+    .btn-block-register {
+        background-color: #FDCB5A !important;
+        color: #1A3150 !important;
+        font-size: 20px !important;
+        font-weight: bold !important;
+        line-height: 150%;
+        width: 520px !important;
+        height: 60px !important;
+        right: 55px;
+        position: relative;
+        margin-top: -20px;
+    }
+    .text-regist-bawah {
+        text-align: center !important;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 150%;
+        position: relative;
+        left: -300px;
+        top: 18px;
+    }
+}

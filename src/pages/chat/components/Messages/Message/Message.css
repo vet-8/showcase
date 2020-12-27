@@ -1,0 +1,91 @@
+.messageBox {
+    background: #F3F3F3;
+    padding: 0px 20px;
+    padding-bottom: -20px;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    background-color: #FDCB5A;
+    min-height: 10px !important;
+    margin-top: 10px;
+}
+
+.messageBox.fromUs {
+    min-height: 10px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.messageBox.fromUs h5 {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.messageText {
+    color: black !important;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.messageText img {
+    vertical-align: middle;
+}
+
+.messageContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    margin-top: 3px;
+}
+
+.messageContainer img {
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.sentText {
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    color: #828282;
+    letter-spacing: 0.3px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.justifyStart {
+    justify-content: flex-start;
+}
+
+.justifyEnd {
+    justify-content: flex-end;
+}
+
+.colorDark {
+    color: #353535;
+}
+
+.backgroundLight {
+    background: #F3F3F3;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.versaIcon {
+    border-radius: 100px;
+}
+
+.bungkus-versa {
+    margin-left: -30px;
+    margin-right: 18px;
+}

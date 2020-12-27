@@ -1,0 +1,53 @@
+.dokter-background {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+}
+
+.dokter-right-box {
+  width: 96%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.inactive-nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1a3150;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.inactive-nav:hover {
+  color: #fdcb5a;
+  background-color: #1a3150;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.active-nav {
+  color: #fdcb5a;
+  background-color: #1a3150;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.inactive-nav-edit-profile {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1a3150;
+  background-color: #fdcb5a;
+  margin: 0 auto;
+  width: 80%;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+.inactive-nav-edit-profile:hover {
+  color: #1a3150;
+  background-color: #ffc107;
+}
+
+.active-nav-edit-profile {
+  background-color: #ffc107;
+}

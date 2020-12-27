@@ -1,0 +1,265 @@
+import React, { useState } from 'react';
+import Header from '../layout/Header';
+import {
+  Container,
+  Label,
+  Input,
+  Button,
+  Form,
+  Row,
+  Col,
+  Modal,
+} from 'reactstrap';
+import './EditUser.css';
+import { FormGroup } from '@material-ui/core';
+
+const EditDoctor = () => {
+  const [modal, setModal] = useState(false);
+  const toggle = () => setModal(!modal);
+
+  return (
+    <>
+      <Header />
+      <Container>
+        <Row className="content">
+          <Col className="contentLeft" sm={4}>
+            <div class="leftSide text-center">
+              <Form className="upper">
+                <div>
+                  <img
+                    src="https://ik.imagekit.io/zvqf9loqe2/VET/Ellipse_10_tm2bFcdD2lB.svg"
+                    width="30%"
+                  />
+                  <div className="profile-name">
+                    <h3>Alexandria Raihan</h3>
+                    <div className="container">
+                      <img src="https://ik.imagekit.io/zvqf9loqe2/VET/Rectangle_58__1__bnd4Vb_XsZtR.svg" />
+                      <div className="statusDoc align-items-center">{`DOCTOR`}</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="profile1">
+                  <Row className="profile1-comp">
+                    <Col>
+                      <Row>
+                        <img
+                          src="https://ik.imagekit.io/zvqf9loqe2/VET/Vector__2___vbNttX3HpvA.svg"
+                          width="18%"></img>
+                        <h5 style={{ color: 'green' }}>Online</h5>
+                      </Row>
+                    </Col>
+                    <Col>
+                      <Row>
+                        <img
+                          src="https://ik.imagekit.io/zvqf9loqe2/VET/Vector__3__O8AHPr8lggMB.svg"
+                          width="18%"></img>
+                        <h5>3 Years</h5>
+                      </Row>
+                    </Col>
+                  </Row>
+                </div>
+                <hr style={{ marginRight: '50px', marginLeft: '50px' }} />
+                <Button className="tombol-edit" type="edit" color="warning">
+                  Edit Profile
+                </Button>
+                <br />
+                <br />
+              </Form>
+            </div>
+
+            <div className="logout">
+              <Row className="logout-comp" onClick = {handleLogout}>
+                <img src="https://ik.imagekit.io/zvqf9loqe2/VET/clarity_logout-line_6JOgslcDRtq.svg" />
+                <div className="text">
+                  <h5>{`Logout`}</h5>
+                </div>
+              </Row>
+            </div>
+          </Col>
+
+          <Col className="contentRight" sm="8">
+            <div className="rightSide">
+              <Form>
+                <div>
+                  <h3 className="form">Upload Photo</h3>
+                  <hr />
+                  <br />
+                  <div className="rcorners">
+                    <div className="upload">
+                      <img src="https://ik.imagekit.io/zvqf9loqe2/VET/Vector__1__wVzNtBzycat.svg" />
+                    </div>
+                    <div className="upload-text">
+                      <h5 style={{ color: '#818181' }}>Upload Image</h5>
+                    </div>
+                  </div>
+
+                  <h3 className="form">Doctor Information</h3>
+                  <hr />
+
+                  <Label className="form">Status</Label>
+                  <br />
+                  <Row className="radioButton">
+                    <FormGroup check>
+                      <Label style={{ marginRight: '100px' }} check>
+                        <Input type="radio" name="radio1" />
+                        {``} Active
+                      </Label>
+                    </FormGroup>
+
+                    <FormGroup check>
+                      <Label check>
+                        <Input type="radio" name="radio1" />
+                        {``} Offline
+                      </Label>
+                    </FormGroup>
+                  </Row>
+
+                  <br />
+
+                  <Row>
+                    <div className="d-flex">
+                      <FormGroup className="form">
+                        <Label for="exampleSelect">Jam Mulai</Label>
+                        <Input
+                          style={{ width: '200px' }}
+                          type="select"
+                          name="select"
+                          id="exampleSelect">
+                          <option>08.00</option>
+                          <option>09.00</option>
+                          <option>10.00</option>
+                          <option>11.00</option>
+                          <option>12.00</option>
+                          <option>13.00</option>
+                          <option>14.00</option>
+                          <option>15.00</option>
+                        </Input>
+                      </FormGroup>
+
+                      <FormGroup className="form">
+                        <Label for="exampleSelect">Jam Pulang</Label>
+                        <Input
+                          style={{ width: '200px' }}
+                          type="select"
+                          name="select"
+                          id="exampleSelect">
+                          <option>11.00</option>
+                          <option>12.00</option>
+                          <option>13.00</option>
+                          <option>14.00</option>
+                          <option>15.00</option>
+                          <option>16.00</option>
+                          <option>17.00</option>
+                          <option>18.00</option>
+                          <option>19.00</option>
+                          <option>20.00</option>
+                          <option>21.00</option>
+                        </Input>
+                      </FormGroup>
+                    </div>
+                  </Row>
+
+                  <br />
+                  <br />
+                  <h3 className="form">Basic Information</h3>
+                  <hr />
+
+                  <Label className="form">Nama Lengkap</Label>
+                  <br />
+                  <div className="form1">
+                    <Input
+                      className="input"
+                      type="text"
+                      placeholder="Alexandria"
+                    />
+                  </div>
+
+                  <br />
+                  <Label className="form">Gender</Label>
+                  <br />
+                  <Row className="radioButton">
+                    <FormGroup check>
+                      <Label style={{ marginRight: '100px' }} check>
+                        <Input type="radio" name="radio1" />
+                        {``} Male
+                      </Label>
+                    </FormGroup>
+
+                    <FormGroup check>
+                      <Label check>
+                        <Input type="radio" name="radio1" />
+                        {``} Female
+                      </Label>
+                    </FormGroup>
+                  </Row>
+
+                  <br />
+
+                  <Label className="form">Experience</Label>
+                  <br />
+                  <div className="form1">
+                    <Input
+                      className="input"
+                      type="text"
+                      placeholder="12 Tahun"
+                    />
+                  </div>
+
+                  <br />
+                  <br />
+                  <h3 className="form">Contact Details</h3>
+                  <hr />
+
+                  <Label className="form">Nomor Telephone</Label>
+                  <br />
+                  <div className="form1">
+                    <Input
+                      className="input"
+                      type="telephone"
+                      placeholder="+712371723 18231823"
+                    />
+                  </div>
+
+                  <br />
+                  <Label className="form">Email</Label>
+                  <br />
+                  <div className="form1">
+                    <Input
+                      className="input"
+                      type="email"
+                      placeholder="alexanda@gmail.com"
+                    />
+                  </div>
+
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </Form>
+            </div>
+          </Col>
+        </Row>
+        <Button
+          className="tombol-simpan"
+          type="simpan"
+          color="warning"
+          onClick={toggle}>
+          Simpan
+        </Button>
+        <Modal isOpen={modal} toggle={toggle} className="edit-modal-placement">
+          <img
+            src="https://ik.imagekit.io/zvqf9loqe2/VET/Group_118__1__PAR5wsVN2kvo.svg"
+            style={{ height: '374px' }}
+          />
+        </Modal>
+        <br />
+        <br />
+      </Container>
+
+      {/* <Footer /> */}
+    </>
+  );
+};
+
+export default EditDoctor;

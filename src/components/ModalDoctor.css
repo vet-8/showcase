@@ -1,0 +1,61 @@
+.modal-add-doctor .modal-content {
+    background-color: white !important;
+}
+
+.modal-header-add-doctor {
+    color: black !important;
+}
+
+.modal-header-add-doctor h3 {
+    position: relative;
+    top: 7px;
+    text-align: center;
+}
+
+.form-dokter {
+    min-height: 400px !important;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-add-doctor {
+    margin-bottom: 0px !important;
+    margin-top: 0px;
+    padding: 0px !important;
+}
+
+.form-dokter label {
+    font-size: 18px;
+    font-weight: 400;
+    color: black !important;
+    margin-left: -313px;
+    margin-top: 0px;
+}
+
+.input-new {
+    margin-top: -60px !important;
+    margin-bottom: -80px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.input-new::placeholder {
+    font-size: 16px;
+}
+
+.modal-footer-add-doctor {
+    background-color: white;
+}
+
+.modal-footer-add-doctor button {
+    font-size: 20px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: #FDCB5A;
+    border: 0px;
+}
+
+.modal-add-doctor img:hover {
+    cursor: pointer;
+}

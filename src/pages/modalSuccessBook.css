@@ -1,0 +1,27 @@
+.modal {
+    margin-top: 60px;
+}
+
+.wow {
+    background-color: #1A3150;
+    height: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.wow img {
+    position: relative;
+}
+
+.wow h1 {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .wow h1 {
+        text-align: center;
+    }
+}

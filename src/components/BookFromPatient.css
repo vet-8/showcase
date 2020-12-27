@@ -1,0 +1,12 @@
+.btn-approve,
+.btn-decline {
+  border-color: black !important;
+}
+
+.btn-approve:hover {
+  background-color: #ffc107;
+}
+
+.btn-decline:hover {
+  background-color: #ed5341;
+}

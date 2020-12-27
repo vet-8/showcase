@@ -1,0 +1,198 @@
+.content {
+    padding-top: 8rem;
+}
+
+.leftSide {
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upper {
+    padding-top: 2rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-name {
+    padding-top: 1.3rem;
+}
+
+.status {
+    position: absolute;
+    top: 20.1%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+}
+
+
+/* .statusDoc {
+  position: absolute;
+  top: 17.5%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  color: #f1f1f1;
+} */
+
+.doctor-btn {
+    color: white !important;
+    background-color: #1a3150 !important;
+    border-radius: 20px !important;
+}
+
+.user-btn {
+    color: white !important;
+    background-color: #4c68b3 !important;
+    border-radius: 20px !important;
+}
+
+.user-btn {
+    color: white !important;
+    background-color: #4c68b3 !important;
+    border-radius: 20px !important;
+}
+
+.statusCli {
+    position: absolute;
+    top: 18.7%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+}
+
+
+/* 
+.profile1 {
+  padding-top: 2rem;
+  padding-left: 6rem; 
+}
+*/
+
+.profile2 {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 50px;
+}
+
+.profile1-comp h5 {
+    padding-left: 10px;
+    padding-top: 14px;
+}
+
+.profile2-comp h5 {
+    padding-left: 10px;
+    padding-top: 14px;
+}
+
+.logout {
+    background-color: #ffff;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+}
+
+
+/* .logout-comp { */
+
+
+/* margin-left: 2em; */
+
+
+/* padding-top: 15px; */
+
+
+/* margin-left: 400px; */
+
+
+/* width: 80%; */
+
+
+/* } */
+
+.text {
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.rightSide {
+    border-radius: 10px;
+    background-color: #ffff;
+    padding-top: 2em;
+}
+
+
+/* .contentRight {
+  margin-left: 30px;
+} */
+
+.form {
+    padding-left: 50px;
+}
+
+.form1 {
+    padding-left: 50px;
+    padding-right: 500px;
+}
+
+.upload {
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.upload-text {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.rcorners {
+    border-radius: 25px;
+    border: 5px solid #f1f1f1;
+    padding-top: -10px;
+    margin-left: 58px;
+    margin-bottom: 30px;
+    width: 230px;
+    height: 230px;
+}
+
+.d-flex {
+    margin-left: 10px;
+}
+
+.radioButton {
+    padding-left: 86px;
+}
+
+.tombol-simpan {
+    width: 14rem;
+    height: 45px;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    /* padding-left: 50px; */
+    margin-left: 50px;
+    /* margin-top: 40px; */
+}
+
+.edit-modal-placement {
+    top: 30%;
+}
+
+.modal-content {
+    background-color: #1a3150 !important;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 150%;
+    height: 333px;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+}
+
+
+/* This is from clinic-stat */
+
+.edit-modal-placement {
+    top: 30%;
+}

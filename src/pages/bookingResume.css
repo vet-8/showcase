@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.resume-title h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.resume-booking img {
+    width: 90vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.resume-booking h4 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+
+.resume-booking h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resume-booking p {
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: -7.5px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.resume-booking h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: -3px;
+}
+
+.finish-booking {
+    background-color: #FDCB5A;
+    font-size: 20px;
+    font-weight: 700;
+    width: 90vw;
+    height: 7.3vh;
+    border: 0px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 16px;
+}
+
+@media screen and (min-width: 922px) {
+    .resume-booking img {
+        width: 40vw;
+    }
+    .finish-booking {
+        background-color: #FDCB5A;
+        font-size: 20px;
+        font-weight: 700;
+        width: 40vw;
+        height: 7.3vh;
+        border: 0px;
+        float: right;
+        margin-top: 0px;
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .resume-booking img {
+        width: 35vw;
+    }
+    .resume-booking p {
+        font-size: 17px;
+        margin-top: 7px;
+        margin-bottom: -7.5px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        margin-left: -30px;
+    }
+    .resume-booking h5 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 25px;
+        margin-bottom: -3px;
+        margin-left: -30px;
+    }
+    .resume-booking h2 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-left: -30px;
+    }
+    .finish-booking {
+        background-color: #FDCB5A;
+        font-size: 20px;
+        font-weight: 700;
+        width: 38.5vw;
+        height: 7.3vh;
+        border: 0px;
+        float: right;
+        margin-top: 0px;
+        margin-right: 16px;
+    }
+}

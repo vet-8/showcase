@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+.yangdiAtas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-now {
+    background-color: #FDCB5A;
+    border: 3px solid #FDCB5A;
+    height: 50px;
+    padding: 0px 20px 0px 10px;
+    border-radius: 5px;
+}
+
+.chat-now:hover {
+    cursor: pointer;
+}
+
+.chat-now h4 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500 !important;
+    font-family: 'Roboto';
+    color: #1A3150;
+}
+
+.chat-now img {
+    height: 30px;
+    width: 34px;
+    margin-left: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.harkunLineZero {
+    display: flex;
+}
+
+.harkunLineHalf {
+    display: flex;
+}
+
+.harkunLine2Zero {
+    display: flex;
+}
+
+.book-now {
+    height: 50px;
+    width: 266px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #FDCB5A;
+    border: 0px;
+    margin-top: 70px;
+}
+
+.namaRS {
+    font-family: 'Roboto';
+    font-size: 36;
+    font-weight: 600;
+    margin-top: -8px;
+    margin-bottom: 22px;
+}
+
+.informasi-umum {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin-bottom: 21px;
+}
+
+.aboutRS img {
+    object-fit: cover;
+    height: 50vh;
+    width: 90vw;
+}
+
+.aboutRS h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 39px;
+    margin-bottom: 10px;
+}
+
+.aboutRS p {
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.harkun {
+    min-width: 95px;
+    height: 44px;
+    background-color: white;
+    font-size: 12px;
+    margin-right: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.harkun-active {
+    background-color: #FDCB5A;
+}
+
+button.sc-cHGsZl.jtCbge {
+    background-color: #FDCB5A;
+    color: black;
+}
+
+button.sc-cHGsZl.jtCbge:hover {
+    border: #FDCB5A;
+}
+
+button.sc-cHGsZl.lfjHdo {
+    color: #FDCB5A;
+}
+
+.lfjHdo:hover {
+    border: #FDCB5A solid 1px!important;
+}
+
+.lfjHdo::after {
+    background-color: #FDCB5A solid 1px!important;
+}
+
+.cfkNHf:hover {
+    border: #FDCB5A solid 1px!important;
+}
+
+.sc-fjmCvl.eSuDNl {
+    color: #FDCB5A !important
+}
+
+.iobGki {
+    color: #FDCB5A !important;
+}
+
+.iobGki::after {
+    border: #FDCB5A solid 1px!important;
+}
+
+.fGArjH::after {
+    color: #FDCB5A !important;
+}
+
+.lfjHdo::after {
+    background-color: #FDCB5A !important;
+}
+
+.dHWuMM {
+    background-color: #FDCB5A !important;
+}
+
+
+/* Input tanggal di awal */
+
+.gQGwkZ {
+    border-radius: 3px !important;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 10px !important;
+    max-width: 150px;
+    border: 0px !important;
+}
+
+.iOBHuI svg {
+    position: relative;
+    left: -287px;
+}
+
+.info-kunjungan p {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 21px;
+}
+
+.info-kunjungan h3 {
+    font-size: 20px;
+}
+
+.wakun-btn {
+    height: 34px;
+    min-width: 134px;
+    font-size: 12px;
+    background-color: white;
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wakun-btn-active {
+    height: 34px;
+    min-width: 134px;
+    font-size: 12px;
+    background-color: #FDCB5A !important;
+    color: black;
+    border: 0px;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.waktu-kunjung {
+    margin-top: 28px;
+}
+
+.waktu-kunjung p {
+    margin-bottom: 8px;
+}
+
+.pilih-dokter img {
+    margin-top: 20px;
+    width: 52px;
+    height: 52px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.pilih-dokter h3 {
+    font-size: 12px;
+    color: #875C25;
+    margin-top: 16px;
+}
+
+.pilih-dokter h1 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+.statuses h4 {
+    font-size: 12px;
+    color: black;
+    margin-left: 8px;
+}
+
+.statuses-active h4 {
+    font-size: 12px;
+    color: #22A017;
+    margin-left: 8px;
+}
+
+.pilih-dokter .statusgbr {
+    width: 10px;
+    height: 10px;
+    background-color: #A6A6A6;
+    color: #A6A6A6;
+    border-radius: 100px;
+    position: relative;
+    top: 2px;
+}
+
+.pilih-dokter .status-active {
+    width: 10px;
+    height: 10px;
+    background-color: #22A017;
+    color: #22A017;
+    border-radius: 100px;
+    position: relative;
+    top: 2px;
+}
+
+.cek-bungkus img {
+    height: 16px;
+    background-color: none;
+    position: relative;
+    left: -28px;
+    top: -10px;
+}
+
+.cek-bungkus {
+    background-color: #A6A6A6;
+    border-radius: 100px;
+    height: 28px;
+    width: 28px;
+    position: relative;
+    left: 55vw;
+    top: -49px;
+    margin-bottom: -15px;
+}
+
+.kartudok-active .cek-bungkus-chosen {
+    background-color: #22A017 !important;
+}
+
+.kartudok-active .cek-bungkus {
+    cursor: pointer;
+}
+
+.kartudok .cek-bungkus-chosen {
+    background-color: #A6A6A6;
+}
+
+.kartudok {
+    min-width: 70vw;
+    min-height: 92px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    background-color: rgb(211, 211, 211);
+}
+
+.kartudok-active {
+    min-width: 200px;
+    min-height: 92px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.kartudok-chosen {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: #FDCB5A !important;
+}
+
+.kartudok:hover {
+    cursor: pointer;
+}
+
+.pilih-dokter h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.pilih-dokter {
+    margin-left: 13px;
+    margin-top: 56px;
+}
+
+.facil {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.facilities {
+    min-width: 206px;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-bottom: 4px;
+}
+
+.facilities h4 {
+    font-size: 16px;
+    font-weight: 400 !important;
+}
+
+.facility {
+    color: #A6A6A6;
+    background-color: #A6A6A6;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    margin-right: 13px;
+}
+
+.facil-active {
+    color: #FDCB5A;
+    background-color: #FDCB5A;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px;
+    margin-right: 13px;
+}
+
+.cek-fasil-active {
+    height: 12px !important;
+    position: relative;
+    left: -29px;
+    top: 4px;
+    margin-right: -13px !important;
+}
+
+.cek-fasil {
+    height: 0px;
+    position: relative;
+    left: -29px;
+    top: 4px;
+    margin-right: 0px;
+}
+
+.info-hewan .pet-add {
+    min-width: 200px;
+    height: 129px;
+    border: 1px solid #A6A6A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.modal-book-pet {
+    border: 3px solid #1A3150;
+    margin-left: 30px;
+    padding: 7px 25px;
+    border-radius: 7px;
+    min-width: 100px;
+    max-width: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-book-pet img {
+    height: 45px;
+}
+
+.name-pet-modal {
+    color: #1A3150;
+    font-size: 20px;
+}
+
+.modal-book-pet-active {
+    background-color: #FDCB5A !important;
+}
+
+.pesewet {
+    height: 46.22px;
+    margin-bottom: 10px;
+    margin-top: 27px;
+}
+
+.pet-add .close {
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.info-hewan img:hover {
+    cursor: pointer;
+}
+
+.info-hewan p {
+    color: #726c6c;
+}
+
+.info-hewan h3 {
+    font-size: 20px;
+    margin-left: 13px;
+    margin-top: 57px;
+    margin-bottom: 18px;
+    max-width: 80vw;
+}
+
+.modal-pet {
+    position: relative;
+    top: 10px;
+}
+
+.adder-pet-booking {
+    border: 3px solid #1A3150;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 96px;
+    max-width: 125px;
+    margin: 0px 0px 0px 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+    padding-bottom: -100px;
+    color: #1A3150;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gambar-pet-willbe {
+    margin-top: 22px;
+    height: 47px !important;
+}
+
+.adder-pet-booking img:hover {
+    cursor: pointer;
+}
+
+.spinner {
+    margin: 200px auto 0;
+    width: 70px;
+    text-align: center;
+}
+
+.spinner>div {
+    width: 18px;
+    height: 18px;
+    background-color: #FDCB5A;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .aboutRS img {
+        width: 100%;
+    }
+    .kartudok {
+        min-width: 328px;
+        min-height: 92px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+        background-color: rgb(211, 211, 211);
+    }
+    .kartudok-active {
+        min-width: 328px;
+        min-height: 92px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    .harkun {
+        min-width: 95px;
+        height: 44px;
+        background-color: white;
+        font-size: 12px;
+        margin-right: 18px;
+        text-align: center;
+        padding-top: 5px;
+        border: 0px;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+    .harkun-active {
+        background-color: #FDCB5A;
+    }
+    .harkunLine1 {
+        display: flex;
+    }
+    .harkunLineZero {
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .harkunLineHalf {
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .harkunLine2 {
+        display: flex;
+    }
+    .cek-bungkus img {
+        height: 16px;
+        background-color: none;
+        position: relative;
+        left: -28px;
+        top: -10px;
+    }
+    .cek-bungkus {
+        background-color: #A6A6A6;
+        border-radius: 100px;
+        height: 28px;
+        width: 28px;
+        position: relative;
+        left: 210px;
+        top: -49px;
+        margin-bottom: -15px;
+    }
+    .pilih-dokter h1 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        margin-top: -5px;
+    }
+    .petlists {
+        display: flex;
+    }
+    .info-hewan .pet-add {
+        width: 200px;
+        height: 129px;
+        border: 1px solid #A6A6A6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 4px;
+        margin-left: 13px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .aboutRS img {
+        width: 100%;
+        height: 23vw;
+    }
+    .harkun {
+        min-width: 99px;
+        height: 48px;
+        background-color: white;
+        font-size: 14px;
+        margin-right: 18px;
+        text-align: center;
+        padding-top: 5px;
+        border: 0px;
+        border-radius: 3px;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+    .harkun-active {
+        background-color: #FDCB5A;
+    }
+    .info-kunjungan p {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 10px;
+        margin-top: 21px;
+    }
+    .wakun-btn {
+        height: 38px;
+        min-width: 155px;
+        font-size: 14px;
+        background-color: white;
+        border: 0px;
+        border-radius: 3px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+    .statuses h4 {
+        font-size: 14px;
+        color: black;
+        margin-left: 8px;
+    }
+    .statuses-active h4 {
+        font-size: 14px;
+        color: #22A017;
+        margin-left: 8px;
+    }
+    .pilih-dokter .statusgbr {
+        width: 12px;
+        height: 12px;
+        background-color: #A6A6A6;
+        color: #A6A6A6;
+        border-radius: 100px;
+        position: relative;
+        top: 2.3px;
+    }
+    .pilih-dokter .status-active {
+        width: 12px;
+        height: 12px;
+        background-color: #22A017;
+        color: #22A017;
+        border-radius: 100px;
+        position: relative;
+        top: 2.3px;
+    }
+    .kartudok {
+        width: 340px;
+        min-height: 92px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+        background-color: rgb(211, 211, 211);
+    }
+    .kartudok-active {
+        min-width: 328px;
+        min-height: 92px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    .cek-bungkus img {
+        height: 16px;
+        background-color: none;
+        position: relative;
+        left: -28px;
+        top: -13px;
+    }
+    .cek-bungkus {
+        background-color: #A6A6A6;
+        border-radius: 100px;
+        height: 28px;
+        width: 28px;
+        position: relative;
+        left: 210px;
+        top: -49px;
+        margin-bottom: -15px;
+    }
+    .pilih-dokter h1 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        margin-top: -5px;
+    }
+    .petlists {
+        display: flex;
+    }
+    .info-hewan .pet-add {
+        width: 200px;
+        height: 129px;
+        border: 1px solid #A6A6A6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 4px;
+        margin-left: 13px;
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+}

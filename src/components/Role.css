@@ -1,0 +1,175 @@
+.font-role {
+    text-align: center!important;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1A3150 !important;
+    line-height: 150%;
+    position: relative;
+    left: -450px;
+}
+
+.text-role {
+    text-align: center!important;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    padding-top: -50px;
+    margin-bottom: 26px;
+    margin-top: 4px;
+    position: relative;
+    left: -315px;
+    max-width: 80vw;
+}
+
+.text-role-bawah {
+    text-align: center!important;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    padding-top: -50px;
+    margin-bottom: 26px;
+    margin-top: 4px;
+    position: relative;
+    top: 50px;
+    left: -400px;
+}
+
+.signin {
+    color: #1A3150;
+}
+
+.btn-block {
+    background-color: #FDCB5A !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    line-height: 150%;
+}
+
+.regist-btn {
+    color: #1A3150 !important;
+    position: relative;
+    width: 70vw;
+    height: 60px;
+    left: -410px;
+    bottom: -50px;
+}
+
+#text-clinic {
+    font-size: 32px !important;
+    left: -480px !important;
+    position: relative;
+}
+
+#text-patient {
+    font-size: 32px;
+    right: 440px;
+    position: relative;
+}
+
+.clinic-icon {
+    background-color: #ffffff;
+    border: 0px;
+    outline: none;
+}
+
+.clinic-icon:focus {
+    outline: none;
+}
+
+.next .btn-block {
+    color: #FDCB5A;
+    width: 350px;
+}
+
+.vet {
+    position: relative;
+    bottom: 700px;
+    left: 220px;
+}
+
+.dog-pict {
+    height: 0px;
+    position: relative;
+    left: 65px;
+}
+
+.pict-role {
+    position: relative;
+    left: -450px;
+}
+
+.pict-role2 {
+    position: relative;
+    right: 450px;
+}
+
+@media screen and (min-width: 992px) {
+    .dog-pict {
+        height: 100vh;
+        position: relative;
+        left: 65px;
+    }
+    .font-role {
+        text-align: center!important;
+        font-weight: bold;
+        font-size: 50px;
+        color: #1A3150 !important;
+        line-height: 150%;
+        position: relative;
+        left: 0px;
+    }
+    .text-role {
+        text-align: center!important;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 150%;
+        padding-top: -50px;
+        margin-bottom: 26px;
+        margin-top: 4px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .pict-role {
+        position: relative;
+        left: 75px;
+    }
+    .pict-role2 {
+        position: relative;
+        right: 50px;
+    }
+    #text-clinic {
+        font-size: 32px !important;
+        left: 80px !important;
+        position: relative;
+    }
+    #text-patient {
+        font-size: 32px;
+        right: 40px;
+        position: relative;
+    }
+    .regist-btn {
+        color: #1A3150 !important;
+        position: relative;
+        width: 520px;
+        height: 60px;
+        left: 10px;
+        bottom: -50px;
+    }
+    .text-role-bawah {
+        text-align: center!important;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 150%;
+        padding-top: -50px;
+        margin-bottom: 26px;
+        margin-top: 4px;
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+}

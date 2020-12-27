@@ -1,0 +1,30 @@
+.upload-photo > input {
+  display: none;
+}
+
+.upload-title {
+  font-size: 1em;
+  display: block;
+  line-height: 1.5em;
+  font-weight: bold;
+  color: #1a3150;
+}
+
+.upload-subtitle {
+  display: block;
+}
+
+.upload-photo-icon {
+  margin-left: 0;
+  height: 180px;
+  width: 180px;
+  border: 2px solid #dadada;
+  border-radius: 5px;
+  color: #818181;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.form-check {
+  display: inline-block;
+}
